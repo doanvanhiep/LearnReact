@@ -1,0 +1,40 @@
+React class component lifecycle
+
+constructor=>render=>componentdidmount=> (Initalize)
+Shouldcomponnetupdate (true then continue, otherwise false then will dont update)
+=>render =>componentdidupdate (update)
+componentWillUnmount (Destroy)
+this.props.children is a props special. It is a text between open tag component and close tag component
+props no change
+props được truyền từ bên ngoài.
+state is variable inside component
+
+
+Hook apear react version 16.8
+it dont use class. It use function
+
+Hook phải được khai báo theo thứ tự (cơ chế react). và đầu mỗi function
+Nếu khong thì sau khi render lại thì các hook sẽ gây lỗi
+
+Usestate lần đầu render sẽ tạo 1 state với giá trị hiện tại
+Những lần sau render n sẽ trả về giá trị mới nhất cho state đó (không tạo lại state, useEffect thì sẽ bị thay thế cái khác 
+thuộc vào mỗi render cụ thể)
+
+useEffect sẽ được chạy sau mỗi lần render kể cả đầu tiên
+
+
+UseContext là dùng để tạo các biến global. Các component con cháu chắt có thể truy cập và gọi được
+React.createContext (Tạo cái kho) sinh ra Provider(Anh tung) và Consumer(Em hứng)
+
+
+useReducer là dùng để nhận 1 state cũ và trả về 1 state mới. Góm các khối code có liên quan lại với nhau 
+trong một action
+
+
+Với các API mới được React bổ sung là useState, createContext, useContext 
+chúng ta có thêm một lựa chọn để làm nhà kho mà ko cần dùng đến Redux
+
+https://topdev.vn/blog/su-dung-usereducer-va-usecontext-de-lam-global-state/
+
+
+

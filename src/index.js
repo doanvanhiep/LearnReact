@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Product} from './component/product'
+import {Counter} from './component/useReducer'
+import {StoreVariale} from './component/useContext/store'
+import {SomeComponent} from './component/useContext/useStore'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Product></Product> */}
+    {/* <Counter></Counter> */}
+    <StoreVariale>
+      <SomeComponent></SomeComponent>
+    </StoreVariale>
   </React.StrictMode>,
   document.getElementById('root')
 );
