@@ -36,7 +36,6 @@ chúng ta có thêm một lựa chọn để làm nhà kho mà ko cần dùng đ
 
 https://topdev.vn/blog/su-dung-usereducer-va-usecontext-de-lam-global-state/
 
-test
 
 
 
