@@ -7,6 +7,7 @@ import {Product} from './component/product'
 import {Counter} from './component/useReducer'
 import {StoreVariale} from './component/useContext/store'
 import {SomeComponent} from './component/useContext/useStore'
+import {Foo} from  './component/useMemo/memo'
 
 
 ReactDOM.render(
@@ -14,9 +15,10 @@ ReactDOM.render(
     {/* <App /> */}
     {/* <Product></Product> */}
     {/* <Counter></Counter> */}
-    <StoreVariale>
+    {/* <StoreVariale>
       <SomeComponent></SomeComponent>
-    </StoreVariale>
+    </StoreVariale> */}
+    <Foo></Foo>
   </React.StrictMode>,
   document.getElementById('root')
 );

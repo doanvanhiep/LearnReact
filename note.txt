@@ -38,4 +38,25 @@ chúng ta có thêm một lựa chọn để làm nhà kho mà ko cần dùng đ
 
 https://topdev.vn/blog/su-dung-usereducer-va-usecontext-de-lam-global-state/
 
-đá
+
+Chưa tìm hiểu useMemo và useCallback
+
+Kĩ thuật memoization là kĩ thuật lưu catch
+
+useMemo   không phải hook mà là HOC 
+Chỉ re-render khi props change
+Dùng compare shallow
+useMemo mục đích dùng để kiểm soát việc re-render Khá giống ShouldComponentUpdate
+
+Nó kiểm tra component không có sự thay đổi thìu nó sẽ không re-render 
+
+https://viblo.asia/p/han-che-re-render-khi-su-dung-react-hook-voi-memo-va-usecallback-yMnKMdjA57P
+
+useCallback là react hook
+Nó tạo ra memoized callback nhận 2 tham số 1 function và 1 dependence 
+useCallback trả về một function cũ nếu dependence không thay đổi (render 1 lần đầu tiên)
+
+Vì useCallback không thay đổi nên lúc ban đầu callback nhận tham số như thế nào thì giờ du có change
+tham số thì callback vẫn nhân tham số cũ
+
+
