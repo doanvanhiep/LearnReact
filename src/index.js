@@ -8,6 +8,7 @@ import {Counter} from './component/useReducer'
 import {StoreVariale} from './component/useContext/store'
 import {SomeComponent} from './component/useContext/useStore'
 import {Foo} from  './component/useMemo/memo'
+import {UseFormikDemo} from  './component/useFormik/formik'
 
 
 ReactDOM.render(
@@ -18,7 +19,8 @@ ReactDOM.render(
     {/* <StoreVariale>
       <SomeComponent></SomeComponent>
     </StoreVariale> */}
-    <Foo></Foo>
+    {/* <Foo></Foo> */}
+    <UseFormikDemo></UseFormikDemo>
   </React.StrictMode>,
   document.getElementById('root')
 );
