@@ -24,13 +24,17 @@ thuộc vào mỗi render cụ thể)
 
 useEffect sẽ được chạy sau mỗi lần render kể cả đầu tiên
 
+useRef use to determined element in html
+
+Prop Drilling: Truyền prop qua các component nhưng component đó không cần (Component con của component đó cần)
+https://viblo.asia/p/prop-drilling-E375zQ4jlGW
 
 UseContext là dùng để tạo các biến global. Các component con cháu chắt có thể truy cập và gọi được
 React.createContext (Tạo cái kho) sinh ra Provider(Anh tung) và Consumer(Em hứng)
 
 
 useReducer là dùng để nhận 1 state cũ và trả về 1 state mới. Góm các khối code có liên quan lại với nhau 
-trong một action
+trong một action   const [state, dispatch] = useReducer(reducer, defaultState);
 
 
 Với các API mới được React bổ sung là useState, createContext, useContext 
@@ -61,6 +65,15 @@ tham số thì callback vẫn nhân tham số cũ
 
 ++++++++++++++++++++++++++++++++++++
 use formik https://formik.org/docs/tutorial
+
+
+//Custom Hook
+là 1 function bắt đầu bằng use (Không bắt đầu bằng use sẽ báo lỗi) được sử dụng các hook (useState,...)
+nhưng không return JSX mà chỉ return các giá trị mình cần
+
+React-router-dom
+Axios
+history of router
 
 
 
