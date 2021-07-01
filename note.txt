@@ -52,7 +52,7 @@ Chỉ re-render khi props change
 Dùng compare shallow
 useMemo mục đích dùng để kiểm soát việc re-render Khá giống ShouldComponentUpdate
 
-Nó kiểm tra component không có sự thay đổi thìu nó sẽ không re-render 
+Nó kiểm tra component không có sự thay đổi thì nó sẽ không re-render 
 
 https://viblo.asia/p/han-che-re-render-khi-su-dung-react-hook-voi-memo-va-usecallback-yMnKMdjA57P
 
@@ -62,6 +62,10 @@ useCallback trả về một function cũ nếu dependence không thay đổi (r
 
 Vì useCallback không thay đổi nên lúc ban đầu callback nhận tham số như thế nào thì giờ du có change
 tham số thì callback vẫn nhân tham số cũ
+
+Sự khác nhau giữa useMemo và useCallback:
+useMemo nó chặn hàm được gọi lại khi giá trị k thay đổi. N lưu vào bộ nhớ
+useCallback n chặn tạo hàm
 
 ++++++++++++++++++++++++++++++++++++
 use formik https://formik.org/docs/tutorial
@@ -74,6 +78,7 @@ nhưng không return JSX mà chỉ return các giá trị mình cần
 React-router-dom
 Axios
 history of router
+params of router
 
 
 
