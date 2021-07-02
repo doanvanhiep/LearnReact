@@ -30,7 +30,8 @@ Prop Drilling: Truyền prop qua các component nhưng component đó không c�
 https://viblo.asia/p/prop-drilling-E375zQ4jlGW
 
 UseContext là dùng để tạo các biến global. Các component con cháu chắt có thể truy cập và gọi được
-React.createContext (Tạo cái kho) sinh ra Provider(Anh tung) và Consumer(Em hứng)
+React.createContext (Tạo cái kho) sinh ra Provider(Anh tung) và Consumer(Em hứng) 
+giải quyết prop drilling
 
 
 useReducer là dùng để nhận 1 state cũ và trả về 1 state mới. Góm các khối code có liên quan lại với nhau 
@@ -79,6 +80,12 @@ React-router-dom
 Axios
 history of router
 params of router
+
+reactStrap
+react-icon
+
+***********************************
+Redux
 
 
 
